@@ -1,7 +1,5 @@
 package org.example.Constructors;
 
-import org.example.Inheritance.Student;
-
 public class Students {
     private int stu_id;
     private String fname;
