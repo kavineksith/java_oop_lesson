@@ -6,7 +6,8 @@ public class Constructors {
         Employee e1 = new Employee();
 
         System.out.println("\n--- Creating e2 ---");
-        Employee e2 = new Employee(101);
+        int emp_id = 101; // Example employee ID
+        Employee e2 = new Employee(emp_id);
 
         System.out.println("\n--- Creating e3 ---");
         Employee e3 = new Employee(102, "Alice");

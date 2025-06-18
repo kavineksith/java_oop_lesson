@@ -1,12 +1,12 @@
 package org.example.Constructors;
 
 public class Employee {
-    private int id;
+    private int id; // field (attribute) of the class
     private String name;
     private double salary;
 
     // Default constructor
-    public Employee() {
+    public Employee() { // behavior of the default constructor
         this(0, "Unknown", 0.0); // Calls the parameterized constructor using this()
         System.out.println("Default constructor called.");
     }
