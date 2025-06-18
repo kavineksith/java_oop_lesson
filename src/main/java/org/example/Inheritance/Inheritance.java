@@ -14,6 +14,6 @@ public class Inheritance {
                 40,
                 "T67890",
                 "Mathematics");
-        t1.displayStudentInfo();
+        t1.displayTeacherInfo();
     }
 }

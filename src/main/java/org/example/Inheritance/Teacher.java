@@ -10,7 +10,7 @@ public class Teacher extends Person {
         this.course = course;
     }
 
-    public void displayStudentInfo() {
+    public void displayTeacherInfo() {
         super.display();
         System.out.println("Teacher ID: " + teacherId);
         System.out.println("Course: " + course);
