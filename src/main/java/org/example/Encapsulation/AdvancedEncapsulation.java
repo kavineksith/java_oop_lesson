@@ -10,7 +10,7 @@ public class AdvancedEncapsulation {
     private String userAddress;
     private String userPhoneNumber;
 
-    // Default constructor
+    // Default constructor ( All Arg Constructor )
     public AdvancedEncapsulation(int userID, String userName, String userEmail, int userAge, String userAddress, String userPhoneNumber) {
         this.userID = userID;
         this.userName = userName;
