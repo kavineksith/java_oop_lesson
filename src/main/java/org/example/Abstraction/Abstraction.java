@@ -10,5 +10,13 @@ public class Abstraction {
 
         rectangle.displayInfo();
         System.out.println("Rectangle Area: " + rectangle.getArea());
+
+        Shape square = new Square("Green", 3.0);
+        square.displayInfo();
+        System.out.println("Square Area: " + square.getArea());
+
+        Shape triangle = new Triangle("Yellow", 4.0, 5.0);
+        triangle.displayInfo();
+        System.out.println("Triangle Area: " + triangle.getArea());
     }
 }
